@@ -1,0 +1,149 @@
+.container{
+   margin-top: 30px;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: raw;
+    gap: 10px;
+   
+    font-size: 20
+    px;
+    color: #0a0202;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+
+
+    
+}
+li{
+    padding: 10px;
+    border-radius: 5px;
+    
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.nav-item .nav-link {
+        color: black !important;
+    }
+
+    .image-container {
+        position: relative;
+        text-align: center;
+
+        
+    }
+    
+    .image-container img {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+    }
+    
+    .image-container .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; /* Adjust color as needed */
+    }
+
+    #best-selling{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    
+
+    }
+
+#best-selling-cards{
+    margin-top: 40px;
+}
+.card-body {
+    text-align: center; /* Centers all content inside the card body */
+}
+
+.card-body button {
+    margin: 0 auto; /* Ensures the button is centered */
+    display: block; /* Makes the button a block element for proper centering */
+}
+
+
+.btn-secondary {
+    font-size: 20px; /* Sets the font size to 20px */
+}
+
+#about-us{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+}
+#about-us h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about-us p{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about-us .btn-secondary {
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #0a0202;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+} 
+
+
+#gallery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#gallery h1 {
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+.gallery-img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: auto; /* Adjust height to fit content */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
